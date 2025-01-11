@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const Body = () => {
   return (
-    <div>
+    <div className="overflow-x scrollbar-hide">
       <Router>
         <Routes>
           <Route path="/" element={<Login />} />
